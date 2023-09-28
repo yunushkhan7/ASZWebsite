@@ -1,0 +1,28 @@
+.about-header-section {
+    background: #405ac3;
+    // background: linear-gradient(106deg, #405ac3 0%, #c364fc 64%);
+    background-image: linear-gradient(to right top, #405ac3, #615fd4, #8162e4, #a264f1, #c364fc);
+
+    .about-info {
+        h1 {
+            color: black;
+            font-size: 33px;
+        }
+    }
+
+    .about-content-right {
+        width: 39%;
+
+        @media (min-width: 320px) and (max-width: 991px) {
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+
+    .mob-pt-120 {
+      padding-top: 120px;
+    }
+  
+  }

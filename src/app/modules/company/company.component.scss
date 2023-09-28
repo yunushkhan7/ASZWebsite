@@ -1,0 +1,90 @@
+.about-header-section{
+background: rgb(134,208,255);
+background: linear-gradient(106deg, rgba(134,208,255,1) 0%, rgba(250,250,250,1) 69%);
+.about-info{
+    h1{
+        color: black;
+        font-size: 33px;
+    }
+}
+
+.company-btn{
+    border-radius: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 6px 22px;
+}
+
+}
+#our-team{
+     background: url('../../../assets/img/people2.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     background-attachment: fixed;
+     &::before{
+        content: '';
+        position: absolute;
+        // background: rgba(92, 201, 167, 0.9);
+        background: rgba(21, 27, 34, 0.9);
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+     }
+}
+.feature-section-two{
+    background: url('../../../assets/img/value-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    &::before{
+       content: '';
+       position: absolute;
+       // background: rgba(92, 201, 167, 0.9);
+       background: rgb(224 243 255 / 70%);
+       left: 0;
+       right: 0;
+       top: 0;
+       bottom: 0;
+    }
+}
+.our-story-section{
+    background-color: #edf8ff !important;
+}
+.about-info{
+    .btn-primary{
+    background-color: #1e2644;
+    border-color: #1e2644;
+    box-shadow: 0 11px 18px -8px rgb(23 31 52 / 60%);
+    }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .about-content-right img:last-of-type {
+        width: 100%;
+    }
+
+
+    .story-grid {
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mob-pt-120 {
+        padding-top: 120px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    /* line 460, src/assets/scss/vendors/bootstrap.min.css */
+    .story-item {
+        .display-5 {
+            font-size: 2rem;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.about-header-section {
+    background: #86ecef;
+    background: linear-gradient(106deg, #86ecef 0%, #fefefe 64%);
+
+    .about-info {
+
+        h1 {
+            color: black;
+            font-size: 33px;
+        }
+    }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .about-content-right img:last-of-type {
+        width: 100%;
+    }
+
+    .mob-pt-120 {
+        padding-top: 120px;
+    }
+
+}

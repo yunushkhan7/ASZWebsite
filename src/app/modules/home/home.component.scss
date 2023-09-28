@@ -1,0 +1,270 @@
+.feature-section {
+  padding: 120px 0;
+  background: #f8f9fa;
+}
+
+.picsum-img-wrapper {
+  position: relative;
+
+  img {
+    width: 100%;
+
+    @media (min-width: 320px) and (max-width: 991px) {
+      margin-top: 85px;
+      height: 467px;
+    }
+  }
+
+}
+
+
+.carasul-pera {
+  position: absolute;
+  top: 49px;
+  width: 100%;
+
+  .carasul-detail {
+    margin-top: 111px;
+    width: 44%;
+    float: left;
+
+    @media (min-width: 320px) and (max-width: 991px) {
+      margin-top: 35px;
+      width: 100%;
+      float: none;
+    }
+
+    h2 {
+      color: white;
+      font-weight: 600 !important;
+      font-size: 47px;
+      line-height: 55px;
+      margin-left: 77px;
+
+      @media (min-width: 320px) and (max-width: 991px) {
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        margin-left: 0;
+      }
+    }
+
+    h4 {
+      margin-left: 77px;
+      font-size: 25px;
+      color: #e9deeb;
+      font-weight: 500 !important;
+
+      @media (min-width: 320px) and (max-width: 991px) {
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+        margin-left: 0;
+      }
+    }
+
+    p {
+      margin-left: 77px;
+      font-weight: 500 !important;
+      color: white;
+      font-size: 17px;
+
+      @media (min-width: 320px) and (max-width: 991px) {
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        margin-left: 33px;
+      }
+    }
+
+    button {
+      margin-left: 77px;
+      margin-top: 20px;
+
+      @media (min-width: 320px) and (max-width: 991px) {
+        text-align: center;
+        margin-left: 0;
+        display: block;
+        width: 42%;
+        margin: auto;
+        padding: 2px 12px;
+      }
+    }
+  }
+
+  .carasul-img {
+    float: right;
+    width: 50%;
+    margin-top: 77px;
+
+    @media (min-width: 320px) and (max-width: 991px) {
+      width: 76%;
+      float: none;
+      text-align: center;
+      margin: auto;
+      margin-top: 34px;
+    }
+
+    video {
+      width: 78%;
+    }
+
+    img {
+      width: 90%;
+    }
+  }
+}
+
+.banner2-gif {
+  margin-top: 30px;
+}
+
+.banner-3-img img {
+  margin-top: -70px !important;
+
+  @media (min-width: 320px) and (max-width: 991px) {
+    margin-top: -47px !important;
+  }
+}
+
+::ng-deep .carousel-indicators li {
+  width: 15px;
+  height: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .carousel-item {
+    height: 400px;
+  }
+
+  .carousel-item {
+    overflow: initial;
+  }
+}
+
+.css-3llpl6 {
+  padding: 80px 0;
+}
+
+.css-ruampn {
+  padding: 80px 0;
+  background: rgba(140, 176, 255, 0.1);
+}
+
+.customers {
+  padding: 80px 0;
+  background: rgba(140, 176, 255, 0.3);
+
+}
+
+.partner-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-list .partner-item {
+
+  -webkit-box-flex: 0;
+  flex: 0 0 20%;
+  max-width: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @media only screen and (max-width: 567px) {
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+
+}
+
+.partner-list .partner-item a {
+  display: block;
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+  padding: 0px 20px;
+}
+
+.partner-item a img {
+  width: 100%;
+}
+
+
+.testi-carasaul {
+  
+  padding: 80px 0;
+  background: #003b5a;
+  text-align: center;
+  .carousel.slide{
+    margin-top: 80px;
+    @media (min-width: 320px) and (max-width: 575px) {
+      margin-top: 0;
+    }
+  }
+
+  ::ng-deep .carousel-indicators {
+    right: 10px;
+    bottom: -86px;
+    display: none;
+  }
+  ::ng-deep .carousel-control-prev{
+    left: 125px;
+    @media (min-width: 320px) and (max-width: 575px) {
+      left: 0;
+    }
+  }
+  ::ng-deep .carousel-control-next {
+    right: 125px;
+    @media (min-width: 320px) and (max-width: 575px) {
+      right: 0;
+    }
+}
+.css-1ntaaj1{
+  margin-bottom: 20px;
+  .css-co6z1q{
+    margin-bottom: 5px;
+  }
+  h2{
+    color: white;
+  }
+}
+.picsum-img-wrapper{
+  width: 50%;
+  margin: auto;
+  @media (min-width: 320px) and (max-width: 575px) {
+    width: 75%;
+  }
+  img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-bottom: 10px;
+  }
+  p{
+    color: white;
+    line-height: 25px;
+    padding-bottom: 5px;
+    font-size: 16px;
+  }
+  h5{
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    font-weight: 500!important;
+  }
+}
+}
+
+::ng-deep .main-hero-banner{
+  .carousel{
+    .carousel-control-next, .carousel-control-prev{
+      width: 5%!important;
+    }
+  }
+  
+}

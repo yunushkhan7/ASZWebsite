@@ -1,0 +1,110 @@
+.page-header{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.feature-section{
+    .hero_img_1{
+        height: 450px;
+        width: 530px;
+    }
+}
+.section-dark{
+    // background-color: #0b163f;
+    background-image: linear-gradient(to right, #051937, #001e4a, #00215d, #002470, #022682);
+    
+    h2,h3{
+        color: #fff;
+    }
+    p{
+        color: cadetblue;
+    }
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.h-300{
+    height: 300px;
+}
+
+.h-250{
+    height: 250px;
+}
+
+.promo-border-hover:hover{
+    transform: scale(1.05);
+}
+
+.btn-primary:hover {
+    color: var(--bs-white);
+    background-color: var(--bs-dark);
+    border-color: var(--bs-dark);
+    box-shadow: none;
+}
+
+.form-check-input:checked {
+    background-color: var(--bs-dark);
+    border-color: var(--bs-dark);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: var(--bs-dark);
+}
+
+
+
+
+.white-bg{
+    background-image: url('../../../../assets/img/white-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../../../../assets/img/hex-bg.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.white-txt{
+    color: #fff;
+}
+
+.dark-grey{
+    color: darkgray;
+}
+
+.promo-border-hover:hover{
+    border:#fff 2px solid !important;
+    .promo-card-info{
+        h2{
+            color: #fff;
+        }
+        
+        p{
+            color: darkgray;
+        }
+
+    }
+}

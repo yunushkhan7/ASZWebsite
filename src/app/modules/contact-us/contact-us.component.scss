@@ -1,0 +1,84 @@
+.touch-in {
+    width: 100%;
+
+    img {
+        width: 100%;
+
+        @media only screen and (max-width: 567px) {
+            height: 253px;
+        }
+    }
+}
+
+
+
+.icon-box.left {
+    text-align: left;
+}
+
+.bg-black-333 {
+    background-color: #7b68ee !important;
+}
+
+.icon-box {
+    padding: 25px;
+
+}
+
+.icon-box:hover {
+    box-shadow: rgb(171 181 189 / 50%) 0px 35px 100px 0px !important;
+}
+
+.media-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media-icon i {
+    font-size: 30px;
+    color: white;
+    margin-top: -20px;
+    padding-right: 20px;
+}
+
+.map iframe {
+    width: 100%;
+    min-height: 400px;
+}
+
+::ng-deep .contact_us {
+    .modal-content {
+        background-image: url('/assets/img//asz/contact_bg.jpg');
+        background-size: cover;
+        background-position: 0px 55px;
+        background-repeat: no-repeat;
+        background-origin: border-box;
+
+        @media (max-width: 575px) {
+            background-image: none;
+        }
+    }
+
+    .modal-dialog {
+        max-width: 800px;
+    }
+
+    .dicussion {
+        padding: 40px 40px 40px 160px;
+
+        @media (max-width: 575px) {
+            padding: 40px 15px 40px 15px;
+        }
+
+        .form-section {
+            .form_heading {
+                margin-bottom: 30px;
+
+                p {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}

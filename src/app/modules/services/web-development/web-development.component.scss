@@ -1,0 +1,39 @@
+.about-header-section {
+    background: #360693;
+    background: linear-gradient(106deg, #a505af 0%, #360693 100%);
+
+    .about-info {
+        h1 {
+            color: black;
+            font-size: 33px;
+        }
+    }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 991px) {
+
+    .mob-pt-120 {
+      padding-top: 120px;
+    }
+  
+  }
+
+  .process-card-two {
+    background: white;
+}
+
+.process-card-two:hover {
+    background: #a505af;
+    background: linear-gradient(106deg, #a505af 0%, #360693 100%);
+}
+
+.process-card-two:hover{
+    h3{color: white;}
+    p{
+        color: white;
+    }
+    
+}
+

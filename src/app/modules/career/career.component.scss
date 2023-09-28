@@ -1,0 +1,878 @@
+.career {
+    // background-image: url('/assets/img/asz/career.jpg');
+    // background: url('assets/img/hero-dot-bg.png')no-repeat center right;
+    background: linear-gradient(90deg, #021048, #1e38a3) !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 16px 0px;
+    align-items: center;
+
+    @media (max-width: 567px) {
+        background: unset;
+    }
+
+    .cont-height {
+        display: flex;
+        align-items: center;
+        height: -webkit-fill-available;
+        padding-top: 80px;
+    }
+
+    .career-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 85vw;
+
+        @media (max-width: 567px) {
+            display: block;
+            width: 100%;
+            padding: 0px 15px;
+        }
+
+        .current-opening {
+            width: 75%;
+            background: rgba(0, 0, 70, 0.7);
+            padding: 26px;
+            border-radius: 5px;
+
+            @media only screen and (max-width: 567px) {
+                width: 100%;
+               
+            }
+
+            h2 {
+                color: white;
+                letter-spacing: 0.5px;
+
+            }
+
+            p {
+                color: white;
+            }
+
+            .tagg-grey {
+                color: darkgray;
+            }
+
+            li {
+                list-style: square;
+                color: white;
+            }
+
+            li a {
+                color: white;
+                text-decoration: none;
+            }
+
+            .cyan {
+                color: cyan;
+            }
+        }
+
+        .current-form {
+            background: #fff;
+            padding: 25px 50px;
+            width: 35vw;
+            // margin: 15% 0;
+            box-shadow: 8px 5px 16px 10px rgb(68 101 131 / 30%);
+
+            @media only screen and (max-width: 567px) {
+                width: 100%;
+                padding: 25px 32px;
+            }
+
+
+            h2 {
+                // color: black;
+                font-size: 28px;
+                line-height: 40px;
+                letter-spacing: 0.5px;
+                text-align: center;
+            }
+
+            p {
+                // color: black;
+                font-size: 13px;
+                line-height: 25px;
+                letter-spacing: 0.5px;
+                text-align: center;
+            }
+
+            .field input {
+                width: 100%;
+                padding: 3px 0;
+                margin: 0 0 4px;
+                border-bottom: 1px solid #c1c1c1;
+                color: #797979;
+                border-left: 0px;
+                border-right: 0px;
+                border-top: 0px;
+                font-size: 16px;
+
+
+
+            }
+
+
+        }
+    }
+}
+
+#field-select {
+    background: transparent;
+    border: none;
+    color: #797979;
+    border-bottom: 1px solid #c1c1c1;
+    margin: 0 0 30px;
+    font-size: 16px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.field_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+
+    @media only screen and (max-width: 567px) {
+        display: block;
+    }
+}
+
+.resume {
+    width: 52%;
+
+    @media only screen and (max-width: 567px) {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.upload-btn {
+    line-height: 19px;
+    position: relative;
+    border: 2px solid #1e38a3;
+    padding: 14px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: var(--bs-dark);
+
+    @media only screen and (max-width: 567px) {
+        padding: 6px 10px;
+        font-size: 15px;
+    }
+
+}
+
+.resume input[type="file"] {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    padding: 0;
+    margin: 0px;
+    min-height: 100%;
+    opacity: 0;
+    background: none;
+    cursor: inherit;
+}
+
+.resume input {
+    border: 1px solid #d5d5d5;
+}
+
+.field_2 .applynow input {
+    text-align: center;
+    border: 0px;
+    background: #69a4d3;
+    padding: 18px 40px;
+    color: #fff;
+    border: 0px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.field_2 .applynow input {
+    text-align: center;
+    border: 0px;
+    background: #1e38a3;
+    padding: 11px 40px;
+    color: #fff;
+    border: 0px;
+    text-transform: uppercase;
+    font-size: 16px;
+
+    @media only screen and (max-width: 567px) {
+        width: 100%;
+    }
+}
+
+.applynow {
+    width: 41%;
+    text-align: right;
+
+    @media only screen and (max-width: 567px) {
+        width: 100%;
+    }
+}
+
+.openings {
+    background: white;
+    padding: 80px 0;
+
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        line-height: 70px;
+        padding: 0 0 60px;
+        color: #282828;
+        font-weight: normal;
+    }
+}
+
+.opening-block {
+    li {
+        list-style: none;
+        float: left;
+        width: 25%;
+        padding: 25px;
+        overflow: hidden;
+        border-bottom: 1px solid #e8ecec;
+        border-right: 1px solid #e8ecec;
+        min-height: 300px;
+
+        @media only screen and (max-width: 567px) {
+            width: 50%;
+        }
+    }
+
+    li:hover {
+        background: linear-gradient(to bottom, #ffffff 0%, #f2f7fc 100%);
+        cursor: pointer;
+        overflow: hidden;
+        transition: 0.5s;
+        box-shadow: 0px 0px 10px 6px rgb(236 236 236 / 80%);
+    }
+
+    li:nth-child(4n) {
+        border-right: 0px;
+        border-bottom: 1px solid #e8ecec;
+    }
+
+    .tech-icon {
+        width: 100%;
+        text-align: center;
+    }
+
+    .openings-text {
+        text-align: center;
+
+        h2 {
+            color: #152242;
+            font-size: 15px;
+            line-height: 25px;
+            margin: 0px;
+            padding: 0 0 8px;
+        }
+
+        p {
+            font-size: 13px;
+            line-height: 22px;
+            color: #6f6f6f;
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+
+    .apply-btn {
+        width: 100%;
+        text-align: center;
+        margin: 25px 0 20px 0;
+
+        input.apply_button {
+            color: #FFF;
+            border: 2px solid transparent;
+            border-radius: 28px;
+            padding: 6px 25px;
+            font-size: 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            background: #ed8021;
+
+            &:hover {
+                border-color: #ed8021;
+                color: #ed8021;
+                background: transparent;
+            }
+        }
+    }
+}
+
+.why {
+    background-image: url('/assets/img/asz/caeer-why.jpg');
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 70, 0.6);
+    padding: 80px 0;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    @media only screen and (max-width: 567px) {
+        padding: 30px 0;
+    }
+
+    .why-cont {
+        margin-left: 45px;
+        margin-top: 10%;
+    }
+
+    .why-box {
+        float: left;
+        width: 58%;
+        // background: rgba(251, 184, 255, 0.5);
+        background-color: var(--bs-dark);
+        padding: 50px;
+        opacity: 0.8;
+
+        @media only screen and (max-width: 567px) {
+            float: none;
+            width: 100%;
+            padding: 29px;
+        }
+
+        h2 {
+            font-size: 40px;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            line-height: 48px;
+        }
+
+        h2 span {
+            font-size: 30px;
+        }
+
+        p {
+            color: darkgray;
+        }
+    }
+}
+
+.culture {
+    padding: 80px 0;
+    background: white;
+    text-align: center;
+
+    h2 {
+        color: black;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .logistics-services-inner {
+        ul {
+            text-align: center;
+        }
+
+        li {
+            display: inline-block;
+            width: 250px;
+            height: 160px;
+            border: 1px solid #d1d2d4;
+            vertical-align: top;
+            border-radius: 4px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            transition: all 0.2s ease;
+
+            @media (min-width: 320px) and (max-width: 991px) {
+                width: 44%;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+        }
+
+        li:hover {
+            box-shadow: 0 3px 10px 2px rgb(95 185 131 / 35%);
+        }
+
+        li:hover .logistics-services-deatil p {
+            color: #5fb983;
+        }
+
+        li:hover .culture-icon1 {
+            background-position: -80px -231px;
+        }
+
+        li:hover .culture-icon2 {
+            background-position: -200px -231px;
+        }
+
+        li:hover .culture-icon3 {
+            background-position: -359px -231px;
+        }
+
+        li:hover .culture-icon4 {
+            background-position: -548px -231px;
+        }
+
+        li:hover .culture-icon5 {
+            background-position: -683px -231px;
+        }
+
+        .logistics-services-inner ul li:hover .culture-icon6 {
+            background-position: -806px -231px;
+        }
+
+        li:hover .culture-icon7 {
+            background-position: -962px -231px;
+        }
+
+        li:hover .culture-icon8 {
+            background-position: -1151px -231px;
+        }
+
+        .logistics-services-deatil {
+
+
+            padding: 9px 0px;
+
+            p {
+                margin-top: 10px;
+                color: black;
+            }
+
+            .culture-icon1 {
+                background-position: -80px -90px;
+            }
+
+            .culture-icon2 {
+                background-position: -200px -90px;
+            }
+
+            .culture-icon3 {
+                background-position: -359px -90px;
+            }
+
+            .culture-icon4 {
+                background-position: -548px -90px;
+            }
+
+            .culture-icon5 {
+                background-position: -683px -90px;
+            }
+
+            .culture-icon6 {
+                background-position: -806px -90px;
+            }
+
+            .culture-icon7 {
+                background-position: -962px -90px;
+            }
+
+            .culture-icon8 {
+                background-position: -1151px -90px;
+            }
+
+            .culture-icons {
+                width: 80px;
+                height: 80px;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .join-us-page-icons {
+                background-image: url('/assets/img/asz/join-us-page-sprite.png');
+                background-repeat: no-repeat;
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+
+
+
+
+/*animated shape*/
+/* line 3705, src/assets/scss/custom/_style.scss */
+.animate-element {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    right: 0;
+}
+
+/* line 3711, src/assets/scss/custom/_style.scss */
+.animate-element li {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/* line 3717, src/assets/scss/custom/_style.scss */
+.circle-shape-images {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/* line 3725, src/assets/scss/custom/_style.scss */
+.circle-shape-item {
+    position: absolute;
+    opacity: 0.55;
+}
+
+/* line 3729, src/assets/scss/custom/_style.scss */
+.circle-shape-item.type-0.hero-1 {
+    left: 12px;
+    bottom: -40px;
+    width: 340px;
+    opacity: 0.8;
+}
+
+/* line 3736, src/assets/scss/custom/_style.scss */
+.circle-shape-item.type-1.hero-1 {
+    right: 55px;
+    top: 40px;
+    width: 186px;
+}
+
+/* line 3742, src/assets/scss/custom/_style.scss */
+.circle-shape-item.type-2.hero-1 {
+    right: 40px;
+    bottom: -20px;
+    width: 100px;
+}
+
+/* line 3748, src/assets/scss/custom/_style.scss */
+.circle-shape-item.type-3.hero-1 {
+    left: 115px;
+    top: 25px;
+    width: 36px;
+}
+
+/* line 3754, src/assets/scss/custom/_style.scss */
+.circle-shape-item.type-4.hero-1 {
+    left: 135px;
+    top: 55px;
+    width: 70px;
+}
+
+/* line 3759, src/assets/scss/custom/_style.scss */
+.circle-shape-item.type-5.hero-1 {
+    right: 0;
+    bottom: -60px;
+    width: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    /* line 3765, src/assets/scss/custom/_style.scss */
+    .circle-shape-item.type-0.hero-1 {
+        width: 250px;
+    }
+}
+
+/*shape services of features*/
+/* line 3770, src/assets/scss/custom/_style.scss */
+.shape-service .color-shape-1 {
+    top: -100px;
+    right: 0;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+/* line 3775, src/assets/scss/custom/_style.scss */
+.shape-service .color-shape-2 {
+    left: -120px;
+    bottom: 100px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+/* line 3780, src/assets/scss/custom/_style.scss */
+.shape-service .color-shape-3 {
+    right: 0;
+    bottom: -50px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+/*coming soon page css*/
+/* line 3787, src/assets/scss/custom/_style.scss */
+.fixed-bg {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 0 10rem 30rem 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: fixed;
+}
+
+/* line 3796, src/assets/scss/custom/_style.scss */
+.white-popup-block {
+    max-width: 768px;
+    margin: 30px auto;
+    position: relative;
+}
+
+/* line 3802, src/assets/scss/custom/_style.scss */
+.animated-circle li {
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+/* line 3807, src/assets/scss/custom/_style.scss */
+.animated-circle li:nth-child(1n) {
+    height: 24vw;
+    width: 24vw;
+    top: 5.3vh;
+    right: 20.3vw;
+    bottom: inherit;
+    -webkit-animation: zoom-1 50s infinite;
+    animation: zoom-1 50s infinite;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+/* line 3816, src/assets/scss/custom/_style.scss */
+.animated-circle li:nth-child(2n) {
+    height: 15vw;
+    width: 15vw;
+    top: -8.8vh;
+    right: -3.4vw;
+    bottom: inherit;
+    -webkit-animation: zoom-2 50s infinite;
+    animation: zoom-2 50s infinite;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+/* line 3825, src/assets/scss/custom/_style.scss */
+.animated-circle li:nth-child(3n) {
+    height: 10vw;
+    width: 10vw;
+    top: 40vh;
+    right: 6.5vw;
+    bottom: inherit;
+    -webkit-animation: zoom-1 50s infinite;
+    animation: zoom-1 50s infinite;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+/* line 3834, src/assets/scss/custom/_style.scss */
+.animated-circle li:nth-child(4n) {
+    height: 8vw;
+    width: 8vw;
+    bottom: 0;
+    top: inherit;
+    right: 10vw;
+    -webkit-animation: zoom-2 50s infinite;
+    animation: zoom-2 50s infinite;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes zoom-1 {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    25% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    75% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes zoom-1 {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    25% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    75% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes zoom-2 {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    25% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    75% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes zoom-2 {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    25% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    75% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .current-opening{
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+
+    .career{
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .openings {
+        padding: 30px 0;
+
+        h1 {
+            font-size: 30px;
+            padding: 0 0 0px;
+        }
+    }
+
+    .opening-block {
+
+        ul {
+            padding-left: 0rem;
+
+            li {
+                padding: 5px;
+            }
+        }
+
+    }
+
+    .why {
+        height: auto;
+
+        .why-cont {
+            margin-left: 0px;
+            margin-top: 0%;
+        }
+
+        .why-box {
+            h2{
+                font-size: 30px;
+            }
+        }
+
+    }
+
+    .logistics-services-inner{
+        ul{
+            padding-left: 0rem;
+        }
+    }
+
+    .culture{
+        padding: 40px 0;
+    }
+
+    
+
+    .career .career-block .current-form  h2  {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .ul-p{
+        padding-left: 1rem;
+    }
+
+
+}
